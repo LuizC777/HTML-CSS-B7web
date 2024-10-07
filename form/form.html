@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" /> 
+        <title>form</title> 
+        <link rel="stylesheet" href="form.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head> 
+
+    <body> 
+        <div class="upper_bar"></div>
+        <div class="sided">
+        <div class="form_1">
+            
+            <div class="form_title">
+                <div class="title">Formulário de cadastro</div>
+                <div class="tlegend">preencha o formulário caso não posusa uma conta</div>
+                <div class="bar"></div>
+            </div>
+
+            <form action="" method="post">
+                <label>Nome completo<br>
+                <input type="text" name="name" placeholder="nome completo" required maxlength="30">
+                </label><br>
+                <label>Endereço<br>
+                <input type="text" name="adress" placeholder="endereço completo" required maxlength="30">
+                </label><br>
+                <label>CPF<br>
+                <input type="number" name="cpf" placeholder="00-000-000-0" required maxlength="2">
+                </label><br>
+                <label>Tel (opcional)<br>
+                <input type="number" name="tel" placeholder="0000-0000" value="+55">
+                </label><br>
+                <label>e-mail<br>
+                <input type="email" name="emailAdress" placeholder="email@gmail.com" required>
+                </label><br>
+                <label>Senha<br>
+                <input type="password" name="password" placeholder="senha" required minlength="8">
+                </label><br>
+                <label>Confirmar senha<br>
+                <input type="password" name="password" placeholder="confirmar senha" required minlength="8">
+                </label><br>
+                <input class="button" type="submit" value="Cadastrar">
+            </form>
+        </div>
+
+        <div class="form_2">
+
+            <div class="form_title">
+                <div class="title">Formulário de login</div>
+                <div class="tlegend">preencha o formulário caso já posusa uma conta</div>
+                <div class="bar"></div>
+            </div>
+
+            <form action="" method="post">
+                <label>e-mail<br>
+                <input type="email" name="emailAdress" placeholder="email@gmail.com" required maxlength="30">
+                </label><br>
+                <label>Senha<br>
+                <input type="password" name="password" placeholder="senha" required maxlength="30">
+                </label><br>
+                <input class="button" type="submit" value="Fazer login">
+            </form>
+
+        </div>
+        </div>
+    </body>
+</html>

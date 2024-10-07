@@ -1,0 +1,166 @@
+*{
+    line-height: 27px;
+    word-spacing: 2px;
+}
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+p {
+    font-size: 20px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seg1{
+    background-color: #ddd;
+    width: 100%;
+    height: auto;
+    color: #333;
+    border: 1px solid #fff;
+    border-top: 0;
+}
+.info{
+    margin:20px;
+    width: 380px;
+}
+.info_area{
+    background-color: #eee;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 5px solid #aaa;
+    border-bottom: 5px solid #aaa;
+}
+.info_t{
+    font-size: 35px;
+}
+.alb{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.sf{
+    flex: 1;
+    background-color: #c39767;
+    color: #222;
+}
+.dl{
+    flex: 1;
+    background-color: #222;
+    color: #ddd;
+}
+.wlr{
+    flex: 1;
+    background-color: #c00;
+    color: #fff;
+}
+
+.alb_t{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.cover1{
+    width: 300px;
+    border:2px solid #222;
+}
+.cover2{
+    width: 300px;
+    border:2px solid #ddd;
+}
+.cover3{
+    width: 300px;
+    border:2px solid #fff;
+}
+.title_area{
+    margin: 20px
+}
+.title{
+    font-size: 60px;
+    margin: 5px;
+}
+.small_title{
+    font-size: 15px;
+    margin:15px;
+}
+.narcissist{
+    height: 550px;
+    border: 6px solid #333;
+    border-radius: 5px;
+}
+figure{
+    margin: 15px;
+}
+.bar{
+    width: 330px;
+    height: 4px;
+    background-color: #000;
+}
+.interlude{
+    background-color: #ddd;
+    height: 50px;
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-bottom: 5px solid #aaa;
+}
+.s_bar1{
+    background-color: #333;
+    width: 200px;
+    height: 3px;
+    margin-top: 10px;
+}
+.s_bar2{
+    background-color: #333;
+    width: 100px;
+    height: 3px;
+    margin-top: 10px;
+}
+ul{
+    padding: 0;
+}
+.alb_b1{
+    width: 200px;
+    height: 3px;
+    background-color: #222;
+    margin: 20px;
+    border-radius: 99px;
+}
+.alb_b2{
+    width: 200px;
+    height: 3px;
+    background-color: #ddd;
+    margin: 20px;
+    border-radius: 99px;
+}
+.alb_b3{
+    width: 200px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 99px;
+}
+.footer_c{
+    padding-left:20px;
+    border-top:2px solid #111;
+    background-color: #333;
+    color:#999
+}
+a{
+    text-decoration: none;
+    color:#999;
+}
+a:hover{
+    color:#c00;
+    text-decoration:underline;
+}

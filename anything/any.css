@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    font-family: arial;
+}
+.tarja {
+    width: 500px;
+    height: 70px;
+    background-color: #5b6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 3px #777;
+    transform: rotate(-45deg);
+    top:43px;
+    left:-165px;
+    position:absolute;
+    background: linear-gradient(10deg, #5b6, #182)
+}
+a {
+    text-decoration: none;
+    color: #efe;
+    text-shadow: 1px 1px 10px #777;
+    border: 2px solid #efe;
+    padding: 19px;
+    width: 500px;
+    text-align: center;
+    font-weight: 600;
+}
